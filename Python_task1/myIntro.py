@@ -4,37 +4,37 @@
 firstName="Rutika"
 middleName="Balkrushna"
 lastName="Mandape"
-College_name="Yeshwantrao Chavan College of Engineering"
+collegeName="Yeshwantrao Chavan College of Engineering"
 Address="Nagpur,Maharashtra "
-Marks_Economics = 90
-Marks_software_Engineering =75
-Marks_computer_network = 87
-Marks_operating_system = 83
-Marks_AI =85
+marksEconomics = 90
+marksSoftwareEngineering =75
+marksComputerNetwork = 87
+marksOperatingSystem = 83
+marksAI =85
 
 #String concatention for full name
-Full_Name=firstName+middleName+lastName
+fullName=firstName+middleName+lastName
 #string concatenation for college name and address
-college_Address= College_name+","+Address
+collegeAddress= College_name+","+Address
 
 #printing full name
-print("My name is ",Full_Name)
+print("My name is ",fullName)
 #printing college name and address
-print(college_Address)
+print(collegeAddress)
 
 #printing marks in every all subject
 
-print("Economics=",Marks_Economics)
-print("Software Engineering=",Marks_software_Engineering)
-print("Computer network=",Marks_computer_network)
-print("operating system=",Marks_operating_system)
-print("Artificial intelligence=",Marks_AI)
+print("Economics=",marksEconomics)
+print("Software Engineering=",marksSoftwareEngineering)
+print("Computer network=",marksComputerNetwork)
+print("operating system=",marksOperatingSystem
+print("Artificial intelligence=",marksAI)
 
 #printing total marks
-total_marks=Marks_Economics+Marks_software_Engineering+Marks_computer_network+Marks_operating_system+Marks_AI
-print("Total marks=",total_marks)
+totalMarks=marksEconomics+marksSoftwareEngineering+marksComputerNetwork+marksOperatingSystem+marksAI
+print("Total marks=",totalMarks)
 #printing percentage
-percentage=round((total_marks/500)*100)
+percentage=round((totalMarks/500)*100)
 percentage="{}% ".format(percentage)
 print("percentage=",percentage)
 
