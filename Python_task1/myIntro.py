@@ -1,10 +1,9 @@
 #personal details
 
-#Declaring variables for full name
 #declaring variables
-fName="Rutika"
-mName="Balkrushna"
-lName="Mandape"
+firstName="Rutika"
+middleName="Balkrushna"
+lastName="Mandape"
 College_name="Yeshwantrao Chavan College of Engineering"
 Address="Nagpur,Maharashtra "
 Marks_Economics = 90
@@ -14,13 +13,13 @@ Marks_operating_system = 83
 Marks_AI =85
 
 #String concatention for full name
-Full_Name=fName+mName+lName
+Full_Name=firstName+middleName+lastName
 #string concatenation for college name and address
 college_Address= College_name+","+Address
 
 #printing full name
 print("My name is ",Full_Name)
- #printing college name and address
+#printing college name and address
 print(college_Address)
 
 #printing marks in every all subject
