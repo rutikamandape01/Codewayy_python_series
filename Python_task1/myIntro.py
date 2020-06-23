@@ -27,7 +27,7 @@ print(collegeAddress)
 print("Economics=",marksEconomics)
 print("Software Engineering=",marksSoftwareEngineering)
 print("Computer network=",marksComputerNetwork)
-print("operating system=",marksOperatingSystem
+print("operating system=",marksOperatingSystem)
 print("Artificial intelligence=",marksAI)
 
 #printing total marks
