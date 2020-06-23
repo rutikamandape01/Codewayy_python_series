@@ -2,9 +2,9 @@
 
 #Declaring variables for full name
 #declaring variables
-fname="Rutika"
-mname="Balkrushna"
-lname="Mandape"
+fName="Rutika"
+mName="Balkrushna"
+lName="Mandape"
 College_name="Yeshwantrao Chavan College of Engineering"
 Address="Nagpur,Maharashtra "
 Marks_Economics = 90
@@ -14,12 +14,12 @@ Marks_operating_system = 83
 Marks_AI =85
 
 #String concatention for full name
-Full_name=fname+mname+lname
+Full_Name=fName+mName+lName
 #string concatenation for college name and address
 college_Address= College_name+","+Address
 
 #printing full name
-print("My name is ",Full_name)
+print("My name is ",Full_Name)
  #printing college name and address
 print(college_Address)
 
