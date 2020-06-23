@@ -1,25 +1,25 @@
 #program for claculating simple interest
 #declaring variables
 
-p=500
-n=2
-r=100
+principal=500
+period=2
+rate=10
 #calculating simple interest
-simple_interest=(p*n*r)/100
+simple_interest=(principal*period*rate)/100
 print("Simple interest=",simple_interest)
 
 #Addition of two float values
-Float1=6.8
-Float2=3.2
-Sum_float=Float1+Float2
+number1=6.8
+number2=3.2
+Sum=number1+number2
 
 #printing addition
-print("sum=",Sum_float)
+print("sum=",Sum)
 
 #Multiplication of integers
-int1=98
-int2=12
+number3=98
+number4=12
 
-mul_Int=int1*int2
+mul_Int=number3*number4
 #printing multiplication
 print("mul=",mul_Int)
