@@ -5,7 +5,7 @@ firstName="Rutika"
 middleName="Balkrushna"
 lastName="Mandape"
 collegeName="Yeshwantrao Chavan College of Engineering"
-Address="Nagpur,Maharashtra "
+address="Nagpur,Maharashtra "
 marksEconomics = 90
 marksSoftwareEngineering =75
 marksComputerNetwork = 87
@@ -15,7 +15,7 @@ marksAI =85
 #String concatention for full name
 fullName=firstName+middleName+lastName
 #string concatenation for college name and address
-collegeAddress= College_name+","+Address
+collegeAddress= collegeName+","+address
 
 #printing full name
 print("My name is ",fullName)
