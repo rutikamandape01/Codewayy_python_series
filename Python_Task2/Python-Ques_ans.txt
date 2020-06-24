@@ -1,0 +1,16 @@
+1) Why is list used?
+=> Lists are one of the four built-in data structures in Python, 
+   together with tuples, dictionaries, and sets. They are used to 
+   store an ordered collection of items, which might be of different types.
+
+2)How do lists and sets differ?
+=> a) Lists and tuples are standard Python data types that store values 
+      in a sequence. Sets are another standard Python data type that also 
+      store values. 
+   b) The major difference is that sets, unlike lists or tuples, 
+    cannot have multiple occurrences of the same element and store unordered values.
+
+3) Application of dictionaries with a real world example.
+=> Dictionaries can be used for :-Data storage - so instead of remembering that
+   a person’s name is at list index 0, and the address is at list index 1 - we can 
+   create a dictionary with keys of ‘name’ and ‘address’ - bingo - your code is more readable.
