@@ -4,6 +4,7 @@
 def myName():
     myName=input("Enter your full nam :")
     print("My name is :",myName)
+
 #function myMarks
 def myMarks():
     dataStructure=int(input("Enter marks:"))
@@ -13,11 +14,13 @@ def myMarks():
     global totalMarks
     totalMarks=dataStructure+computerNetwork+operatingSystem+artificialIntelligence
     print("Total marks is : ",totalMarks)
+
 #function myPercentage
 def myPercentage():
     global score
     score=(totalMarks)/4
     print("My percentage is : ",score,"%")
+
 #function myGrade  
 def myGrade():
     if(score>=95):
