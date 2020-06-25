@@ -2,51 +2,60 @@
 
 #funcrtion myName
 
-def myName():
-    myName=input("Enter your full nam :")
-    print("My name is :",myName)
+def myName(name):
+    return(name)
 
 #function myMarks
 
-def myMarks():
-    dataStructure=int(input("Enter marks:"))
-    computerNetwork=int(input("Enter marks:"))
-    operatingSystem=int(input("Enter marks:"))
-    artificialIntelligence=int(input("Enter marks:"))
-    global totalMarks
-    totalMarks=dataStructure+computerNetwork+operatingSystem+artificialIntelligence
-    print("Total marks is : ",totalMarks)
+def myMarks(marksList):
+    totalMarks=sum(marksList)
+    return (totalMarks)
 
 #function myPercentage
 
-def myPercentage():
-    global score
-    score=(totalMarks)/4
-    print("My percentage is : ",score,"%")
+def myPercentage(noOfSubjects,totalMarks):
+    
+    perc=(totalMarks)/(noOfSubjects)
+    return(perc)
 
 #function myGrade  
 
 def myGrade():
     if(score>=95):
-        print("Your Grade is :A")
+        return('A')
     elif(score>=85 and score<=95):
-       print("Your Grade is : B")
+       return('B')
     elif(score>=75 and score<=85):
-        print("Your Grade is : C")
+       return('C')
     elif(score>=65 and score<=75):
-        print("Your Grade is : D")
+       return('D')
     else:
-        print("You are fail ")
+        return ("You are fail")
 
         
 #creating studentDetails fucntion to call other fucntions
 
-def studentDetails():
-    myName()
-    myMarks()
-    myPercentage()
-    myGrade()
-studentDetails()
+def studentDetails(name, noOfSubjects,marksList):
+    print("My name is",my name(name))
+    totalMarks=myMarks(marksList)
+
+    print("My marks is",totalMarks)
+    score=myPercentage(noOfSubjects, totalMarks)
+    print("My percentage is",score)
+
+    grade=my grade(score)
+    print("My grade is",grade)
+
+name=input("Enter your name")
+
+marksList=[]
+noOfSubjects=int(input("Enter the number of subjects"))
+
+for i in range (noOfSubjects):
+    marks=int(input("Enter marks"))
+    marksList.append(marks)
+
+studentDetails(name, noOfSubjects, marksList)
     
     
    
