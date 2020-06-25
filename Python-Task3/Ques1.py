@@ -20,7 +20,7 @@ def myPercentage(noOfSubjects,totalMarks):
 
 #function myGrade  
 
-def myGrade():
+def myGrade(score):
     if(score>=95):
         return('A')
     elif(score>=85 and score<=95):
@@ -43,7 +43,7 @@ def studentDetails(name, noOfSubjects,marksList):
     score=myPercentage(noOfSubjects, totalMarks)
     print("My percentage is",score)
 
-    grade=my grade(score)
+    grade=myGrade(score)
     print("My grade is",grade)
 
 name=input("Enter your name")
